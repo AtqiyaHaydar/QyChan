@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Me from '@/public/me2.jpg'
 import { Badge } from './ui/badge'
 import Link from 'next/link';
-import { Sparkles } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -16,7 +15,7 @@ const Hero = () => {
         height={100}
       />
       <div className='space-y-2'>
-        <h1 className='text-3xl font-semibold flex items-center gap-x-4'>Atqiya Haydar <Sparkles /></h1>
+        <h1 className='text-3xl font-semibold'>Atqiya Haydar </h1>
         <p className='text-xl text-white/75'>Software Engineer & UI/UX Designer</p>
       </div>
       <div className='space-x-2'>

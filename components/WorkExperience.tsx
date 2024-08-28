@@ -24,7 +24,7 @@ const experiences = [
 
 const WorkExperience = () => {
   return (
-    <div className='space-y-4'>
+    <div id='experiences' className='space-y-4'>
       <h3 className='text-2xl flex items-center gap-x-4'><LaptopMinimal /> Work Experience</h3>
       <ul>
         {experiences.map(item => (
