@@ -60,11 +60,11 @@ const experiences = [
 
 const OrganizationalExperience = () => {
   return (
-    <div className='space-y-4'>
+    <div className='space-y-4' data-aos="fade-up" >
       <h3 className='text-2xl flex items-center gap-x-4'><UsersRound /> Experience</h3>
       <ul>
         {experiences.map(item => (
-          <li key={item.id} className='flex flex-col md:flex-row justify-between md:items-center border-b border-white/5 py-2'>
+          <li key={item.id} className='flex flex-col md:flex-row justify-between md:items-center border-b border-white/5 py-2' data-aos="fade-up" >
             <div>
               <p>{item.name}</p>
               <p className='text-white/50 text-sm'>{item.company}</p>

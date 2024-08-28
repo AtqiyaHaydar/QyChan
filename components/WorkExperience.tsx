@@ -24,11 +24,11 @@ const experiences = [
 
 const WorkExperience = () => {
   return (
-    <div id='experiences' className='space-y-4'>
+    <div data-aos="fade-up" className='space-y-4'>
       <h3 className='text-2xl flex items-center gap-x-4'><LaptopMinimal /> Work Experience</h3>
       <ul>
         {experiences.map(item => (
-          <li key={item.id} className='flex flex-col md:flex-row justify-between md:items-center border-b border-white/5 py-2'>
+          <li key={item.id} className='flex flex-col md:flex-row justify-between md:items-center border-b border-white/5 py-2' data-aos="fade-up" >
             <div>
               <p>{item.name}</p>
               <p className='text-white/50 text-sm'>{item.company}</p>

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='space-y-4'>
+    <div className='space-y-4' data-aos="fade-down">
       <Image 
         src={Me}
         alt='My Photo'

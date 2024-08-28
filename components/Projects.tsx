@@ -46,11 +46,11 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='space-y-4'>
+    <div data-aos="fade-up" className='space-y-4'>
       <h3 className='text-2xl flex items-center gap-x-4'><Atom /> Projects</h3>
       <ul className='flex flex-col gap-y-2'>
         {projects.map(item => (
-          <li key={item.id} className='flex items-center justify-between w-full bg-[#282828] rounded-sm px-4 py-2 '>
+          <li key={item.id} className='flex items-center justify-between w-full bg-[#282828] rounded-sm px-4 py-2' data-aos="fade-up">
             <div className='flex items-center gap-x-2'>
               <Badge className={cn(
                 'text-white',
