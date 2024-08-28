@@ -26,7 +26,7 @@ const Achievements = () => {
       <h3 className='text-2xl flex items-center gap-x-4'><Award /> Honor & Awards</h3>
       <ul className='space-y-2'>
         {achievements.map(item => (
-          <li key={item.id} className='flex justify-between items-center bg-[#282828] px-4 py-2 rounded-sm'>
+          <li key={item.id} className='flex justify-between text-sm md:text-[16px] items-center bg-[#282828] px-4 py-2 rounded-sm'>
             <p>{item.name}</p>
           </li>
         ))}

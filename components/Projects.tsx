@@ -57,7 +57,7 @@ const Projects = () => {
                 item.type === 'Website' && 'bg-gradient-to-br from-blue-500 to-green-500 border-none',
                 item.type === 'Design' && 'bg-gradient-to-br from-purple-500 to-pink-500 border-none'
               )}>{item.type}</Badge>
-              <p>{item.name}</p>
+              <p className='text-sm md:text-[16px]'>{item.name}</p>
             </div>
             <Link href={item.href} target='_blank' className='text-white/50'>
               <ExternalLink className='h-5 w-5' />
