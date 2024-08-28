@@ -1,7 +1,7 @@
 import React from 'react'
 import { LaptopMinimal } from 'lucide-react';
 
-const experience = [
+const experiences = [
   {
     id: 1,
     name: "Software Engineering Laboratory Assistant",
@@ -25,15 +25,15 @@ const experience = [
 const WorkExperience = () => {
   return (
     <div className='space-y-4'>
-      <h3 className='text-2xl flex items-center gap-x-4'><LaptopMinimal /> Professional Experience</h3>
+      <h3 className='text-2xl flex items-center gap-x-4'><LaptopMinimal /> Work Experience</h3>
       <ul>
-        {experience.map(item => (
+        {experiences.map(item => (
           <li key={item.id} className='flex justify-between items-center border-b border-white/5 py-2'>
             <div>
               <p>{item.name}</p>
-              <p className='text-white/75 text-sm'>{item.company}</p>
+              <p className='text-white/50 text-sm'>{item.company}</p>
             </div>
-            <p className='text-white/75 text-sm'>
+            <p className='text-white/50 text-sm'>
               {item.time}
             </p>
           </li>

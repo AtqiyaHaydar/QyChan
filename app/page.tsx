@@ -3,6 +3,8 @@ import WorkExperience from "@/components/WorkExperience";
 import Hero from "@/components/Hero";
 import { Separator } from "@/components/ui/separator";
 import OrganizationalExperience from "@/components/OrganizationalExperience";
+import Achievements from "@/components/Achievements";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +14,10 @@ export default function Home() {
       <Separator />
       <WorkExperience />
       <OrganizationalExperience />
+      <Separator />
+      <Achievements />
+      <Separator />
+      <Projects />
     </main>
   );
 }
