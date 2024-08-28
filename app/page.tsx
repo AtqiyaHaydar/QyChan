@@ -5,6 +5,7 @@ import { Separator } from "@/components/ui/separator";
 import OrganizationalExperience from "@/components/OrganizationalExperience";
 import Achievements from "@/components/Achievements";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Achievements />
       <Separator />
       <Projects />
+      <Footer />
     </main>
   );
 }
