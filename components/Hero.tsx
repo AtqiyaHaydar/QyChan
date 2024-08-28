@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col gap-y-4'>
+    <div className='space-y-4'>
       <Image 
         src={Me}
         alt='My Photo'
