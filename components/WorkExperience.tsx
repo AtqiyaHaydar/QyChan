@@ -1,10 +1,11 @@
 import React from 'react'
+import { LaptopMinimal } from 'lucide-react';
 
 const experience = [
   {
     id: 1,
     name: "Software Engineering Laboratory Assistant",
-    company: "STEI ITB",
+    company: "Institut Teknologi Bandung",
     time: "Start Aug. 2024"
   },
   {
@@ -24,10 +25,10 @@ const experience = [
 const WorkExperience = () => {
   return (
     <div className='space-y-4'>
-      <h3 className='text-2xl'>Work Experience</h3>
-      <ul className='space-y-2'>
+      <h3 className='text-2xl flex items-center gap-x-4'><LaptopMinimal /> Professional Experience</h3>
+      <ul>
         {experience.map(item => (
-          <li key={item.id} className='flex justify-between items-center'>
+          <li key={item.id} className='flex justify-between items-center border-b border-white/5 py-2'>
             <div>
               <p>{item.name}</p>
               <p className='text-white/75 text-sm'>{item.company}</p>
