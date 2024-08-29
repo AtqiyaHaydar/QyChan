@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   useEffect(() => {
@@ -33,6 +34,8 @@ export default function Home() {
       <Achievements />
       <Separator data-aos="fade-right" />
       <Projects />
+      <Separator data-aos="fade-right" />
+      <Testimonials />
       <Footer />
     </main>
   );
