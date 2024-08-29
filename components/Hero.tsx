@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Me from '@/public/me2.jpg'
+import Me from '@/public/me3.jpg'
 import { Badge } from './ui/badge'
 import Link from 'next/link';
 
