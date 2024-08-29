@@ -6,7 +6,7 @@ const experiences = [
     id: 1,
     name: "Frontend Web Developer",
     company: "OSKM ITB 2024",
-    time: "Aug. 2024 - Sep. 2024"
+    time: "Aug. 2024 - Present"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const experiences = [
     id: 3,
     name: "Director of Operations",
     company: "Kelompok Studi Ekonomi dan Pasar Modal ITB",
-    time: "Mar. 2024 - Jan. 2024"
+    time: "Mar. 2024 - Present"
   },
   {
     id: 4,

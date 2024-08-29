@@ -7,11 +7,11 @@ import { Separator } from "@/components/ui/separator";
 import OrganizationalExperience from "@/components/OrganizationalExperience";
 import Achievements from "@/components/Achievements";
 import Projects from "@/components/Projects";
-import Footer from "@/components/Footer";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {

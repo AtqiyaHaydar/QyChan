@@ -52,11 +52,7 @@ const Projects = () => {
         {projects.map(item => (
           <li key={item.id} className='flex items-center justify-between w-full bg-[#282828] rounded-sm px-4 py-2' data-aos="fade-up">
             <div className='flex items-center gap-x-2'>
-              <Badge className={cn(
-                'text-white',
-                item.type === 'Website' && 'bg-gradient-to-br from-blue-500 to-green-500 border-none',
-                item.type === 'Design' && 'bg-gradient-to-br from-purple-500 to-pink-500 border-none'
-              )}>{item.type}</Badge>
+              <Badge className='text-white border-2 border-white bg-transparent hover:bg-transparent font-light'>{item.type}</Badge>
               <p className='text-sm md:text-[16px]'>{item.name}</p>
             </div>
             <Link href={item.href} target='_blank' className='text-white/50'>
