@@ -4,18 +4,24 @@ import { LaptopMinimal } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    name: "Software Engineering Laboratory Assistant",
-    company: "Institut Teknologi Bandung",
-    time: "Start Aug. 2024"
+    name: "Product Designer",
+    company: "MediVault",
+    time: "Oct. 2024 - Present"
   },
   {
     id: 2,
+    name: "Software Engineering Laboratory Assistant",
+    company: "Institut Teknologi Bandung",
+    time: "Sep. 2024 - Present"
+  },
+  {
+    id: 3,
     name: "Software Engineer Intern",
     company: "Purple Foxes Italy",
     time: "Jul. 2024 - Present",
   },
   {
-    id: 3,
+    id: 4,
     name: "UI/UX Designer Intern",
     company: "Datare",
     time: "Nov. 2023 - Jan. 2024"
