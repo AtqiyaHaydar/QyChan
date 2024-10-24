@@ -29,6 +29,11 @@ const Hero = () => {
             LinkedIn
           </Badge>
         </Link>
+        <Link href='https://drive.google.com/file/d/14gO1rJypWcWjzUy7WOTY-LjNZUAyiYvJ/view?usp=sharing' target='_blank'>
+          <Badge variant={"secondary"} className='text-white bg-[#191919] hover:bg-white/25 underline-offset-2'>
+            Curriculum Vitae
+          </Badge>
+        </Link>
       </div>
     </div>
   )
